@@ -1,0 +1,12 @@
+{
+  "name": "document",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx sort-package-json && git diff -z --name-only | xargs -r -0 npx prettier --write -u"
+  }
+}
